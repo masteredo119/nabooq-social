@@ -1,0 +1,105 @@
+{
+  "topic": "GPT-6.2 Astra o Sol: quale usare",
+  "format": "carosello",
+  "scheduled": "2026-11-28T12:30:00+01:00",
+  "sources": [
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "https://gcn.com/?p=23366",
+    "https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis/"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "theme": "dark",
+      "kicker": "Confronto · ChatGPT",
+      "title": "Astra o Sol?<br><span class=\"m\">Quale usare davvero.</span>",
+      "sub": "I due nuovi modelli di OpenAI, spiegati senza tecnicismi."
+    },
+    {
+      "type": "text",
+      "theme": "light",
+      "kicker": "Cosa è successo",
+      "title": "Due modelli.<br><span class=\"m\">Due lavori diversi.</span>",
+      "body": "Il <b>17 novembre</b> OpenAI ha rilasciato <b>GPT-6.2 Astra</b> e <b>GPT-6.2 Sol</b>.<br><br>Li trovi in ChatGPT Work e Codex con i piani Plus, Pro, Enterprise ed Edu."
+    },
+    {
+      "type": "split",
+      "theme": "dark",
+      "kicker": "La differenza",
+      "title": "Chi fa cosa",
+      "blocks": [
+        {
+          "label": "Astra · il più potente",
+          "text": "Per i progetti più difficili: <b>documenti, fogli di calcolo e slide</b> curati, codice complesso."
+        },
+        {
+          "label": "Sol · quello di tutti i giorni",
+          "text": "<b>Efficiente e versatile</b>: scrittura, compiti in più passaggi, lavoro quotidiano.",
+          "fill": true
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "theme": "ice",
+      "kicker": "Il dato che sorprende",
+      "big": "1/5",
+      "caption": "del costo. Nel test di programmazione FrontierCode 2.0, <b>Sol arriva a 0,5 punti da Astra</b>.",
+      "note": "Dato dichiarato da OpenAI, con entrambi i modelli alla massima impostazione."
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "Il nostro consiglio",
+      "title": "Quando basta Sol",
+      "items": [
+        "Email, riassunti, traduzioni, idee.",
+        "Domande di tutti i giorni e ricerche veloci.",
+        "Compiti in più passaggi senza file complessi."
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "dark",
+      "kicker": "Il nostro consiglio",
+      "title": "Quando serve Astra",
+      "items": [
+        "Report, presentazioni e fogli di calcolo <b>da consegnare</b>.",
+        "Analisi lunghe con <b>tanti documenti</b>.",
+        "Codice e progetti <b>complessi</b>."
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "In pratica",
+      "title": "Cosa fare<br><span class=\"m\">da domani.</span>",
+      "items": [
+        "Parti sempre da <b>Sol</b>.",
+        "Passa ad <b>Astra</b> solo se il risultato non basta.",
+        "Fai una prova: <b>stessa richiesta, due modelli</b>, e confronta."
+      ]
+    },
+    {
+      "type": "cta",
+      "theme": "dark",
+      "kicker": "nabooq · Digital & AI services",
+      "title": "L'IA che conta.<br><span class=\"m\">Ogni settimana.</span>",
+      "actions": [
+        {
+          "icon": "+",
+          "text": "Segui @nabooq_"
+        },
+        {
+          "icon": "↓",
+          "text": "Salva il post"
+        },
+        {
+          "icon": "↗",
+          "text": "Mandalo a chi non sa quale scegliere"
+        }
+      ]
+    }
+  ],
+  "caption": "Astra o Sol? Nel menu di ChatGPT ci sono due nuovi modelli. Ecco quale usare.\n\nIl 17 novembre OpenAI ha rilasciato GPT-6.2 Astra e GPT-6.2 Sol.\n\n→ Astra è il modello di punta, per i progetti più difficili\n→ Sol è il modello efficiente per il lavoro di tutti i giorni\n→ secondo OpenAI, in un test di programmazione Sol arriva a 0,5 punti da Astra con circa un quinto del costo\n→ il nostro consiglio: parti da Sol, passa ad Astra solo quando serve\n\nTu quale stai usando? Scrivilo nei commenti.\n\nSegui @nabooq_ per l'IA che conta, spiegata semplice.\n\n#intelligenzaartificiale #ChatGPT #OpenAI #IA #GPT6 #produttività #nabooq"
+}

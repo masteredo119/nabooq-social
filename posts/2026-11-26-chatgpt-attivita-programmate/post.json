@@ -1,0 +1,97 @@
+{
+  "topic": "ChatGPT: attività programmate e 4 prompt da copiare",
+  "format": "carosello",
+  "scheduled": "2026-11-26T12:30:00+01:00",
+  "sources": [
+    "https://9to5mac.com/2026/06/17/openai-launches-scheduled-tasks-in-chatgpt-details-here/",
+    "https://www.engadget.com/2196844/chatgpt-now-has-a-hub-for-scheduled-tasks/",
+    "https://learn.chatgpt.com/docs/automations?surface=web"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "theme": "dark",
+      "kicker": "Da salvare · ChatGPT",
+      "title": "ChatGPT lavora<br>anche quando<br><span class=\"m\">non ci sei.</span>",
+      "sub": "Le attività programmate: cosa sono e 4 prompt da copiare."
+    },
+    {
+      "type": "text",
+      "theme": "light",
+      "kicker": "Cosa sono",
+      "title": "Gli dai un compito.<br><span class=\"m\">Lui lo ripete da solo.</span>",
+      "body": "Con le <b>attività programmate</b> chiedi a ChatGPT di fare una cosa a un orario preciso, ogni giorno o ogni settimana.<br><br>Promemoria, lavoro ricorrente, controlli: ricevi una notifica con il risultato."
+    },
+    {
+      "type": "list",
+      "theme": "dark",
+      "kicker": "Come si attiva",
+      "title": "Bastano tre passi",
+      "items": [
+        "Scrivilo in chat: <b>“Ogni lunedì alle 8…”</b> e descrivi il compito.",
+        "Gestisci tutto dalla pagina <b>Scheduled</b>: pausa, modifica, elimina.",
+        "Funziona su <b>web e app</b>, nei piani a pagamento: Go, Plus, Pro, Business, Enterprise."
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "Prompt da copiare · 1/2",
+      "title": "Copia e incolla.",
+      "items": [
+        "“Ogni mattina alle 7:30 riassumimi in 5 punti le notizie su <b>[settore]</b>.”",
+        "“Ogni venerdì alle 17 ricordami il report settimanale e dammi una scaletta.”"
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "Prompt da copiare · 2/2",
+      "title": "Copia e incolla.",
+      "items": [
+        "“Ogni giorno controlla il prezzo di <b>[prodotto]</b> e avvisami solo se scende sotto <b>[cifra]</b>.”",
+        "“Ogni lunedì proponimi 3 idee di post per <b>[attività]</b>.”"
+      ]
+    },
+    {
+      "type": "stat",
+      "theme": "ice",
+      "kicker": "Da sapere",
+      "big": "1 ora",
+      "caption": "È la frequenza massima: un'attività parte <b>al massimo una volta all'ora</b>.",
+      "note": "Le attività lasciate a lungo senza supervisione possono essere messe in pausa in automatico."
+    },
+    {
+      "type": "list",
+      "theme": "dark",
+      "kicker": "In pratica",
+      "title": "Cosa fare<br><span class=\"m\">da domani.</span>",
+      "items": [
+        "<b>Prova il prompt</b> prima in una chat normale.",
+        "Scrivi quando avvisarti: <b>“solo se cambia qualcosa”</b>.",
+        "Controlla i primi risultati e <b>correggi il prompt</b>."
+      ]
+    },
+    {
+      "type": "cta",
+      "theme": "dark",
+      "kicker": "nabooq · Digital & AI services",
+      "title": "L'IA che conta.<br><span class=\"m\">Ogni settimana.</span>",
+      "actions": [
+        {
+          "icon": "+",
+          "text": "Segui @nabooq_"
+        },
+        {
+          "icon": "↓",
+          "text": "Salva il post"
+        },
+        {
+          "icon": "↗",
+          "text": "Mandalo a chi usa ChatGPT ogni giorno"
+        }
+      ]
+    }
+  ],
+  "caption": "ChatGPT può lavorare anche quando non ci sei. E quasi nessuno lo usa.\n\nCon le attività programmate gli chiedi di fare una cosa a un orario preciso, ogni giorno o ogni settimana, e ti arriva una notifica con il risultato.\n\n→ si attivano scrivendo in chat \"Ogni lunedì alle 8…\"\n→ si gestiscono dalla pagina Scheduled\n→ sono incluse nei piani a pagamento (Go, Plus, Pro, Business, Enterprise)\n→ nel carosello trovi 4 prompt pronti da copiare\n\nQuale compito faresti fare a ChatGPT ogni mattina? Scrivilo nei commenti.\n\nSegui @nabooq_ per l'IA che conta, spiegata semplice.\n\n#intelligenzaartificiale #ChatGPT #IA #produttività #prompt #automazione #nabooq"
+}

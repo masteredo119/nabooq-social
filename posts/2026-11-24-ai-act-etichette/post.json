@@ -1,0 +1,104 @@
+{
+  "topic": "AI Act: obbligo di etichettare i contenuti generati con l'IA (linee guida UE in GUUE 12/11/2026)",
+  "format": "carosello",
+  "scheduled": "2026-11-24T12:30:00+01:00",
+  "sources": [
+    "https://digital-strategy.ec.europa.eu/it/factpages/quick-facts-transparency-rules-ai-systems",
+    "https://www.ipsoa.it/documents/quotidiano/2026/11/13/ia-orientamenti-ue-obblighi-trasparenza-sistemi-intelligenza-artificiale"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "theme": "dark",
+      "kicker": "AI Act · Trasparenza",
+      "title": "Hai fatto un post<br>con l'IA.<br><span class=\"m\">Devi dirlo?</span>",
+      "sub": "Le nuove linee guida UE sui contenuti generati con l'intelligenza artificiale, in 2 minuti."
+    },
+    {
+      "type": "text",
+      "theme": "light",
+      "kicker": "Cosa è successo",
+      "title": "Le regole ci sono già.<br><span class=\"m\">Ora c'è il manuale.</span>",
+      "body": "Dal <b>2 agosto 2026</b> valgono le regole di trasparenza dell'AI Act (art. 50).<br><br>Il <b>12 novembre</b> la Commissione europea ha pubblicato in Gazzetta Ufficiale le linee guida che spiegano come applicarle."
+    },
+    {
+      "type": "split",
+      "theme": "dark",
+      "kicker": "Chi deve fare cosa",
+      "title": "Due ruoli, due obblighi diversi",
+      "blocks": [
+        {
+          "label": "Chi crea lo strumento",
+          "text": "ChatGPT, Gemini, Claude…<br>Devono inserire un <b>marchio invisibile</b>, leggibile dalle macchine, nei contenuti generati."
+        },
+        {
+          "label": "Chi lo usa per pubblicare",
+          "text": "Aziende, professionisti, creator.<br>In certi casi devono mettere un'<b>etichetta visibile</b>.",
+          "fill": true
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "dark",
+      "kicker": "Va etichettato",
+      "title": "Quando serve l'etichetta",
+      "items": [
+        "<b>Deepfake:</b> immagini, audio o video fatti con l'IA che sembrano persone, luoghi o fatti reali.",
+        "<b>Testi su temi di interesse pubblico</b> generati con l'IA e pubblicati <b>senza revisione umana</b>."
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "Non serve",
+      "title": "Quando puoi stare tranquillo",
+      "items": [
+        "Correzione di ortografia e grammatica, <b>editing standard</b>.",
+        "Testi rivisti da una persona, con un <b>vero controllo editoriale</b>.",
+        "Deepfake creati <b>prima del 2 agosto 2026</b>: nessun obbligo retroattivo (ma è consigliato)."
+      ]
+    },
+    {
+      "type": "stat",
+      "theme": "ice",
+      "kicker": "Cosa si rischia",
+      "big": "15 mln €",
+      "caption": "o il <b>3% del fatturato mondiale</b>: è il tetto delle multe per le imprese.",
+      "note": "Per le PMI è prevista proporzionalità. La UE propone anche tre icone (facoltative) per segnalare i contenuti IA."
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "In pratica",
+      "title": "Cosa fare<br><span class=\"m\">da domani.</span>",
+      "items": [
+        "<b>Fai rileggere sempre</b> a una persona i testi scritti con l'IA.",
+        "Immagini o video realistici fatti con l'IA? <b>Etichettali.</b>",
+        "Chatbot sul sito? <b>Deve dire chiaramente</b> che è un'IA."
+      ],
+      "fineprint": "Contenuto informativo, non consulenza legale. Fonte: Commissione europea."
+    },
+    {
+      "type": "cta",
+      "theme": "dark",
+      "kicker": "nabooq · Digital & AI services",
+      "title": "L'IA che conta.<br><span class=\"m\">Ogni settimana.</span>",
+      "actions": [
+        {
+          "icon": "+",
+          "text": "Segui @nabooq_"
+        },
+        {
+          "icon": "↓",
+          "text": "Salva il post"
+        },
+        {
+          "icon": "↗",
+          "text": "Mandalo a chi pubblica con l'IA"
+        }
+      ]
+    }
+  ],
+  "caption": "Hai fatto un post con l'IA? Potresti doverlo dichiarare.\n\nDal 2 agosto 2026 l'AI Act chiede trasparenza sui contenuti generati con l'intelligenza artificiale. Il 12 novembre la Commissione europea ha pubblicato in Gazzetta Ufficiale le linee guida per applicare queste regole.\n\n→ i deepfake vanno sempre etichettati\n→ i testi su temi di interesse pubblico vanno etichettati se nessuno li ha rivisti\n→ correzioni di grammatica ed editing standard non contano\n→ un chatbot deve dire che è un'IA\n\nTu dichiari quando usi l'IA? Scrivilo nei commenti.\n\nSegui @nabooq_ per l'IA che conta, spiegata semplice.\n\n(Contenuto informativo, non consulenza legale.)\n\n#intelligenzaartificiale #AIAct #IA #ChatGPT #socialmedia #contentcreator #nabooq"
+}

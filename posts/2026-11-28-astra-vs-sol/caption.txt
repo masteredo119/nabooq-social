@@ -1,0 +1,14 @@
+Astra o Sol? Nel menu di ChatGPT ci sono due nuovi modelli. Ecco quale usare.
+
+Il 17 novembre OpenAI ha rilasciato GPT-6.2 Astra e GPT-6.2 Sol.
+
+→ Astra è il modello di punta, per i progetti più difficili
+→ Sol è il modello efficiente per il lavoro di tutti i giorni
+→ secondo OpenAI, in un test di programmazione Sol arriva a 0,5 punti da Astra con circa un quinto del costo
+→ il nostro consiglio: parti da Sol, passa ad Astra solo quando serve
+
+Tu quale stai usando? Scrivilo nei commenti.
+
+Segui @nabooq_ per l'IA che conta, spiegata semplice.
+
+#intelligenzaartificiale #ChatGPT #OpenAI #IA #GPT6 #produttività #nabooq

@@ -4,9 +4,8 @@ Aggiornato dall'agente ogni lunedì. Le indicazioni del titolare hanno la preced
 
 ## Indicazioni del titolare
 - Obiettivo: viralità, solo temi IA (23/11/2026).
-- Bozze da approvare per i post fino al 13/12/2026, poi pubblicazione diretta.
+- Gestione completamente autonoma (24/11/2026): il titolare non interviene sul profilo. Niente bozze: ogni post si programma direttamente su Buffer, anche prima del 14/12/2026. Il titolare riceve solo i riepiloghi.
 - Monitorare la crescita del profilo in growth.csv e usarla per coordinare le pubblicazioni secondo ISTRUZIONI-AGENTE.md, sezione 9 (24/11/2026).
-- Follower: scrivere qui "Follower al GG/MM: N" quando Buffer non fornisce il dato.
 
 ## Cosa funziona
 - (nessun dato ancora)

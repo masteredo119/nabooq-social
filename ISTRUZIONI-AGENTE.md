@@ -84,9 +84,7 @@ Il sistema è ricavato da nabooq.com.
   - gli `assets` in ordine, ognuno con `altText`;
   - `mode: customScheduled` e `dueAt` con offset +01:00 (+02:00 in ora legale).
 - **Piano gratuito Buffer:** massimo 10 post programmati alla volta.
-- **Fasi di approvazione:**
-  - Post con data fino al **13/12/2026**: `saveToDraft: true` (bozze da approvare in Buffer).
-  - Dal **14/12/2026**: programmazione diretta, salvo diversa indicazione del titolare in `learnings.md` o nel progetto.
+- **Pubblicazione:** dal 24/11/2026 programmazione diretta (niente `saveToDraft`). Il titolare non approva i post e non interviene sul profilo: riceve solo i riepiloghi.
 
 ## 7. Processo settimanale (ogni lunedì, in autonomia)
 
@@ -108,7 +106,7 @@ Il sistema è ricavato da nabooq.com.
 Ogni lunedì, prima di scegliere i temi, misuri la crescita e la usi per coordinare la settimana.
 
 **Cosa misuri (registro `growth.csv`, una riga a settimana)**
-- `follower`: numero di follower a inizio settimana. Fonte, nell'ordine: Buffer, se lo espone; il valore scritto dal titolare in `learnings.md` ("Follower al GG/MM: N"); altrimenti cella vuota. Non stimarlo mai.
+- `follower`: numero di follower a inizio settimana, solo se Buffer lo espone; altrimenti cella vuota. Non stimarlo mai e non chiederlo al titolare.
 - Per i post pubblicati nella settimana precedente (`list_posts` con `includeMetrics`): numero di post, copertura totale, condivisioni, salvataggi, commenti, nuovi follower, se disponibili.
 - **Punteggio virale** di ogni post = (condivisioni × 3 + salvataggi × 2 + commenti) ÷ copertura × 100. Se mancano condivisioni o salvataggi, usa il tasso di interazione di Buffer e scrivilo nella colonna `note`.
 - La rubrica e il formato di ogni post (es. "notizia spiegata", "prompt da copiare", "confronto", "mito sfatato") li prendi da `log.csv`.
@@ -121,13 +119,13 @@ Ogni lunedì, prima di scegliere i temi, misuri la crescita e la usi per coordin
 3. **Notizie calde.** Se la rubrica "La notizia IA" ha un punteggio medio più alto delle altre due, il martedì ha sempre la precedenza sulla notizia più forte, anche spostando un tema già pronto.
 4. **Coda.** Non superi mai 10 post in coda su Buffer.
 
-**Cose che proponi al titolare, senza applicarle**
-- Sostituire una rubrica che resta ultima per **4 settimane**.
-- Passare da 3 a 4 post a settimana, se per 3 settimane la copertura cresce e il punteggio medio non scende.
+**Cose che decidi da solo e comunichi nel riepilogo** (il titolare non approva, viene solo informato)
+- Sostituire una rubrica che resta ultima per **4 settimane**, scegliendo un nuovo tema sempre sull'IA.
+- Passare da 3 a 4 post a settimana, se per 3 settimane la copertura cresce e il punteggio medio non scende. Massimo 4 a settimana.
 - Spostare un orario (dopo 4 settimane di dati): un solo slot alla volta, per 2 settimane, confrontato con le 12:30.
-- Tornare alle bozze se la crescita dei follower si ferma o cala per 2 settimane consecutive dopo il 14/12/2026.
+- Ogni cambio si annota in `learnings.md`, con data e motivo.
 
 **Nel riepilogo del lunedì** aggiungi una sezione "Crescita":
 - follower (con la variazione, se il dato c'è), copertura e punteggio medio, confrontati con la settimana prima;
 - la classifica delle rubriche;
-- le regole applicate e le proposte per il titolare, una riga ciascuna.
+- le decisioni prese e il motivo, una riga ciascuna.

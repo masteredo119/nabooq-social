@@ -91,7 +91,7 @@ Il sistema è ricavato da nabooq.com.
 ## 7. Processo settimanale (ogni lunedì, in autonomia)
 
 1. **Leggi** `learnings.md` e `log.csv` (temi già fatti, cosa ha funzionato).
-2. **Misura:** statistiche Buffer dei post delle ultime 1–2 settimane: copertura, condivisioni, salvataggi, commenti, nuovi follower dove disponibili. Aggiorna `learnings.md` con 3 righe: cosa funziona, cosa no, cosa provare.
+2. **Misura:** statistiche Buffer dei post delle ultime 1–2 settimane: copertura, condivisioni, salvataggi, commenti, nuovi follower dove disponibili. Aggiungi la riga della settimana a `growth.csv` e applica le regole della sezione 9 prima di scegliere i temi. Aggiorna `learnings.md` con 3 righe: cosa funziona, cosa no, cosa provare.
 3. **Ricerca dei trend:** notizie e discussioni IA degli ultimi 7 giorni, da fonti ufficiali (blog di OpenAI, Anthropic, Google, Meta, Commissione UE), testate affidabili e temi caldi sui social. Scegli 3 temi, uno per rubrica, con il potenziale virale più alto, senza ripetere temi delle ultime 4 settimane.
 4. **Verifica:** ogni fatto, numero o data va controllato su una fonte primaria e salvato in `sources`. Se non è verificabile, il tema si cambia.
 5. **Scrittura e render:** 3 `post.json`, poi `render.py`, poi controllo visivo di ogni slide (leggibilità, testo che non esce, coerenza).
@@ -102,3 +102,32 @@ Il sistema è ricavato da nabooq.com.
 
 - Non rispondere a commenti o DM, non modificare bio o profilo, non eliminare post pubblicati.
 - Le chiavi e le credenziali non compaiono mai nei file o nei testi.
+
+## 9. Crescita del profilo e regia delle pubblicazioni
+
+Ogni lunedì, prima di scegliere i temi, misuri la crescita e la usi per coordinare la settimana.
+
+**Cosa misuri (registro `growth.csv`, una riga a settimana)**
+- `follower`: numero di follower a inizio settimana. Fonte, nell'ordine: Buffer, se lo espone; il valore scritto dal titolare in `learnings.md` ("Follower al GG/MM: N"); altrimenti cella vuota. Non stimarlo mai.
+- Per i post pubblicati nella settimana precedente (`list_posts` con `includeMetrics`): numero di post, copertura totale, condivisioni, salvataggi, commenti, nuovi follower, se disponibili.
+- **Punteggio virale** di ogni post = (condivisioni × 3 + salvataggi × 2 + commenti) ÷ copertura × 100. Se mancano condivisioni o salvataggi, usa il tasso di interazione di Buffer e scrivilo nella colonna `note`.
+- La rubrica e il formato di ogni post (es. "notizia spiegata", "prompt da copiare", "confronto", "mito sfatato") li prendi da `log.csv`.
+
+**Soglia minima.** Le regole qui sotto si applicano solo con almeno **6 post pubblicati con metriche** (circa 2 settimane). Sotto questa soglia registri i dati e non cambi niente.
+
+**Regole che applichi da solo**
+1. **Formato vincente.** I post nel 20% più alto per punteggio virale diventano un modello: nella settimana successiva puoi riusarne il formato (non il tema) per un post, al massimo uno a settimana.
+2. **Rubrica debole.** Se la stessa rubrica è ultima per punteggio medio **2 settimane di fila**, la settimana dopo cambi formato dentro quella rubrica (es. da "lista di strumenti" a "prompt da copiare"). Il giorno e il nome della rubrica restano uguali.
+3. **Notizie calde.** Se la rubrica "La notizia IA" ha un punteggio medio più alto delle altre due, il martedì ha sempre la precedenza sulla notizia più forte, anche spostando un tema già pronto.
+4. **Coda.** Non superi mai 10 post in coda su Buffer.
+
+**Cose che proponi al titolare, senza applicarle**
+- Sostituire una rubrica che resta ultima per **4 settimane**.
+- Passare da 3 a 4 post a settimana, se per 3 settimane la copertura cresce e il punteggio medio non scende.
+- Spostare un orario (dopo 4 settimane di dati): un solo slot alla volta, per 2 settimane, confrontato con le 12:30.
+- Tornare alle bozze se la crescita dei follower si ferma o cala per 2 settimane consecutive dopo il 14/12/2026.
+
+**Nel riepilogo del lunedì** aggiungi una sezione "Crescita":
+- follower (con la variazione, se il dato c'è), copertura e punteggio medio, confrontati con la settimana prima;
+- la classifica delle rubriche;
+- le regole applicate e le proposte per il titolare, una riga ciascuna.

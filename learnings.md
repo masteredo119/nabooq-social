@@ -14,5 +14,7 @@ Aggiornato dall'agente ogni lunedì. Le indicazioni del titolare hanno la preced
 - (nessun dato ancora)
 
 ## Da provare
+- Dopo 4 settimane: versione Reel breve (slide animate, senza volti né immagini IA) del carosello migliore della settimana, perché i Reel arrivano di più ai non follower. Da valutare senza cambiare il sistema grafico.
+- Confrontare le CTA "Salvalo" contro "Mandalo a…" sul punteggio virale.
 - Confrontare i formati: "prompt da salvare" contro "notizia spiegata".
 - Dopo 4 settimane, valutare se spostare l'orario delle 12:30.

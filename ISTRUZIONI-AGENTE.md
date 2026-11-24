@@ -66,11 +66,16 @@ Il sistema è ricavato da nabooq.com.
 
 ## 5. Caption
 
-- **Prima riga:** gancio, perché è l'unica che si vede prima di "altro".
-- **Corpo:** 3–4 punti chiave con →.
-- **Domanda finale** per stimolare i commenti (es. "Tu lo useresti?").
+- **Prima riga (gancio + parola chiave):** è l'unica che si vede prima di "altro" e Instagram la usa anche per la ricerca. Deve contenere la parola che un italiano cercherebbe (es. "ChatGPT", "AI Act", "prompt") e una tensione o promessa. Massimo circa 15 parole.
+- **Corpo:** 2 righe di contesto in parole semplici, con le parole chiave scritte per esteso (es. "intelligenza artificiale", non solo "IA"), poi 3–4 punti chiave con →.
+- **Una sola chiamata all'azione mirata**, scelta in base al post:
+  - post utile da riusare → "Salvalo per quando ti serve";
+  - post da far vedere a qualcuno → "Mandalo a chi [usa ChatGPT al lavoro / gestisce i social / …]" con una persona precisa;
+  - notizia o confronto → domanda chiusa e facile ("Tu quale usi? A o B?").
+  Non chiedere commenti "a vuoto" né frasi da engagement bait ("commenta SÌ se…").
 - **Chiusura:** "Segui @nabooq_ per l'IA che conta, spiegata semplice."
-- **Hashtag:** 5–8, in italiano e pertinenti (#intelligenzaartificiale #IA #ChatGPT …).
+- **Hashtag: massimo 5 (limite di Instagram dal dicembre 2025; oltre il post può fallire).** Usane 3–5, specifici del tema: 1 del tema preciso (#AIAct, #ChatGPT), 1–2 di categoria (#intelligenzaartificiale, #prompt), 1–2 del pubblico (#produttività, #socialmedia). Niente hashtag del brand (#nabooq) né generici vuoti. Gli hashtag aiutano a classificare il post, non a farlo crescere: la crescita viene da condivisioni e salvataggi.
+- **Alt text** di ogni slide: descrittivo e con le parole chiave del post (aiuta anche la classificazione).
 - Sui temi legali: "Contenuto informativo, non consulenza legale."
 
 ## 6. Infrastruttura
@@ -110,6 +115,12 @@ Ogni lunedì, prima di scegliere i temi, misuri la crescita e la usi per coordin
 - Per i post pubblicati nella settimana precedente (`list_posts` con `includeMetrics`): numero di post, copertura totale, condivisioni, salvataggi, commenti, nuovi follower, se disponibili.
 - **Punteggio virale** di ogni post = (condivisioni × 3 + salvataggi × 2 + commenti) ÷ copertura × 100. Se mancano condivisioni o salvataggi, usa il tasso di interazione di Buffer e scrivilo nella colonna `note`.
 - La rubrica e il formato di ogni post (es. "notizia spiegata", "prompt da copiare", "confronto", "mito sfatato") li prendi da `log.csv`.
+
+**Principi di crescita (validi sempre)**
+- Il segnale più forte per arrivare ai non follower sono le **condivisioni in privato**; poi i salvataggi. Ogni post deve avere un destinatario preciso a cui mandarlo o un motivo concreto per salvarlo.
+- Nei caroselli Instagram può riproporre il post partendo dalla **seconda slide**: anche la slide 2 deve funzionare da gancio da sola.
+- Costanza prima della quantità: 3 post a settimana sempre, senza buchi.
+- Niente trucchi (engagement bait, hashtag in massa, cover che promettono più del contenuto): penalizzano la distribuzione.
 
 **Soglia minima.** Le regole qui sotto si applicano solo con almeno **6 post pubblicati con metriche** (circa 2 settimane). Sotto questa soglia registri i dati e non cambi niente.
 
